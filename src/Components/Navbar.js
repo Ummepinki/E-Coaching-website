@@ -11,7 +11,6 @@ const Navbar = () => {
     <div className="w-full h-[80px] bg-white  sticky top-0">
       <div className="md:max-w-[1480px] max-w-[600px]  m-auto w-full h-full flex justify-between items-center">
         <img src={logo} className="h-[40px]" alt="logo" />
-
         <div className=" hidden md:flex items-center">
           <ul className="flex gap-4">
             <li>Home</li>
@@ -21,6 +20,7 @@ const Navbar = () => {
             <li>All Courses</li>
           </ul>
         </div>
+
         <div className="hidden md:flex ">
           <button className="gap-4 m-3">
             <AiOutlineShoppingCart />
@@ -34,6 +34,7 @@ const Navbar = () => {
           {toggle ? <GrFormClose /> : <BiMenu />}
         </div>
       </div>
+
       <div
         className={
           toggle ? "absolute z-10 p-4 bg-white w-full px-8 md:hidden" : "hidden"

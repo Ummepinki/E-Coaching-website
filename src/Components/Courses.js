@@ -16,6 +16,9 @@ const Courses = () => {
         Industry.Lorem Ipsum Has Been Industry's
       </p>
       <div className=" gap-4 py-2 px-3 md:max-w-[1480px] m-auto grid md:grid-cols-4 max-w-[600px]">
+        {/* 
+        Props Data
+     */}
         <Card
           titleText="Applied Data Science Specialization"
           imageSource={course1}

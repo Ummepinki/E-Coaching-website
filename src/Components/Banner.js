@@ -16,6 +16,8 @@ const Banner = () => {
             industry.Lorem Ipsum has been industry's standard dummy text ever
             since the 1500s.
           </p>
+
+          {/* Form section*/}
           <form className="m-2 max-w-[500px] p-2 shadow-lg rounded-sm flex  justify-between py-4 ">
             <input
               type="text"
@@ -27,7 +29,11 @@ const Banner = () => {
             </button>
           </form>
         </div>
+
+        {/* Banner image */}
         <img src={banner} className=" md:order-last order-first" alt="" />
+
+        {/* Courses Number*/}
         <div className=" m-5 mt-20 md:order-last order-first ">
           <div className="m-7">
             <h1 className=" text-5xl text-green-500">100</h1>

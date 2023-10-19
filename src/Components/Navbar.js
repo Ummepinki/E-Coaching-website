@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => setToggle(!toggle);
   return (
-    <div className="w-full h-[80px] bg-white">
+    <div className="w-full h-[80px] bg-white  sticky top-0">
       <div className="md:max-w-[1480px] max-w-[600px]  m-auto w-full h-full flex justify-between items-center">
         <img src={logo} className="h-[40px]" alt="logo" />
 
